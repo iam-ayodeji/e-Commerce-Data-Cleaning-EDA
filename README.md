@@ -81,7 +81,7 @@ Average order value varied by **less than 16%** across Product, Payment Method, 
 
 The variation within individual categories was substantially greater than the variation between categories, suggesting that these fields provide **limited explanatory power for order value** within this dataset.
 
-![Average Order Value by Category](screenshots/category_breakdown.png)
+![Average Order Value by Category](screenshots/category%20breakdown.png)
 
 ---
 
@@ -93,7 +93,7 @@ However, 2025 contains only **6 months of observations**, compared with **12 mon
 
 After normalizing for the observation period, monthly revenue in 2024 and 2025 was broadly comparable at approximately **38K–40K per month**. Therefore, the raw annual totals should not be interpreted as evidence of a comparable year-over-year decline without accounting for the different observation windows.
 
-![Revenue and Order Volume Over Time](screenshots/time_trend.png)
+![Revenue and Order Volume Over Time](screenshots/time%20trend.png)
 
 ---
 
@@ -113,7 +113,7 @@ The correlation between Quantity and Unit Price was approximately **0.01**, indi
 
 In practical terms, higher-priced products were not systematically associated with lower purchase quantities.
 
-![Quantity vs Unit Price Scatter](screenshots/scatter_quantity_price.png)
+![Quantity vs Unit Price Scatter](screenshots/scatter%20-%20quantity%20vs%20price.png)
 
 ---
 
@@ -156,9 +156,9 @@ ecommerce-data-cleaning-eda/
 │
 ├── Ecommerce_Data_Cleaning_and_EDA.xlsx
 ├── screenshots/
-│   ├── scatter_quantity_price.png
-│   ├── time_trend.png
-│   └── category_breakdown.png
+│   ├── scatter - quantity vs price.png
+│   ├── time trend.png
+│   └── category breakdown.png
 │
 └── README.md
 ```
