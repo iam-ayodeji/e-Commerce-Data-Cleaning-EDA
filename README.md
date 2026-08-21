@@ -137,6 +137,14 @@ If additional customer-level data were available, the next analysis would focus 
 - **External validation:** compare these patterns against a real transactional dataset before applying conclusions to operational decisions.
 
 ---
+## Limitations
+
+- No cost or margin data — the dataset has UnitPrice and TotalPrice, but no cost-of-goods field, so profitability and margin cannot be calculated, only revenue.
+- No marketing spend data —ReferralSource (Facebook, Google, Email, Instagram, Referral) shows where orders came from, but without spend per channel, ROI or channel efficiency can’t be assessed.
+- No customer demographic data — CustomerID is present but there’s no age, gender, or location-beyond-address field, limiting segmentation analysis.
+- ShippingAddress lacks region/city granularity — addresses are street-level (e.g., “552 Main St”) without a separate city, state, or region column, which limits geographic analysis unless the address is parsed further.
+
+---
 
 ## Project Deliverables
 
